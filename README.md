@@ -40,7 +40,7 @@ npm run build
 for deploy just run the following command :
 
 ```bash
-npm run deplyo
+npm run deploy
 ```
 ## Demo
 [demo](http://VCHMichael.github.io/genesis-millioner) <br/>
