@@ -1,0 +1,13 @@
+.content-notFound {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__title {
+    font-size: 60px;
+  }
+  &__description {
+    padding: 20px;
+  }
+}

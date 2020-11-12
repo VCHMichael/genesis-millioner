@@ -1,0 +1,58 @@
+.gameContainer {
+  font-family: 'Inter', sans-serif;
+  background: #E5E5E5;
+  height: 100vh;
+  @media (min-width: 900px) {
+    display: flex;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+  }
+
+  &__answerBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (min-width: 1650px) {
+      justify-content: flex-end;
+    }
+  }
+}
+
+.amount-block {
+  width: 30%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 900px) {
+    display: none;
+  }
+  @media (min-width: 1024px) {
+    width: 315px;
+  }
+  @media (min-width: 1650px) {
+  width: 20%;
+}
+}
+

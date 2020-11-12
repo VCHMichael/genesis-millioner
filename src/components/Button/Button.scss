@@ -1,0 +1,22 @@
+.btn {
+  background: #FF8B37;
+  text-decoration: none;
+  border: transparent;
+  border-radius: 8px;
+  color: #fff;
+  padding: 16px 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  &:hover {
+    background: #FFAC70;
+  }
+  &:active {
+    background: #E87928;
+  }
+  @media (min-width: 1200px) {
+    width: 296px;
+  }
+}
