@@ -36,13 +36,13 @@ For building project run
 npm run build
 ```
 
-##Deploy
+## Deploy
 for deploy just run the following command :
 
 ```bash
 npm run deplyo
 ```
-##Demo
+## Demo
 [demo](http://VCHMichael.github.io/genesis-millioner) <br/>
 
 
