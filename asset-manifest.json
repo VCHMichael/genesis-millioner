@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/genesis-millioner/static/css/main.047d6842.chunk.css",
-    "main.js": "/genesis-millioner/static/js/main.b6ac1ea5.chunk.js",
-    "main.js.map": "/genesis-millioner/static/js/main.b6ac1ea5.chunk.js.map",
+    "main.css": "/genesis-millioner/static/css/main.fc1ea7bf.chunk.css",
+    "main.js": "/genesis-millioner/static/js/main.887633a7.chunk.js",
+    "main.js.map": "/genesis-millioner/static/js/main.887633a7.chunk.js.map",
     "runtime-main.js": "/genesis-millioner/static/js/runtime-main.d286ff75.js",
     "runtime-main.js.map": "/genesis-millioner/static/js/runtime-main.d286ff75.js.map",
     "static/js/2.5535f666.chunk.js": "/genesis-millioner/static/js/2.5535f666.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.90c522ca.chunk.js": "/genesis-millioner/static/js/3.90c522ca.chunk.js",
     "static/js/3.90c522ca.chunk.js.map": "/genesis-millioner/static/js/3.90c522ca.chunk.js.map",
     "index.html": "/genesis-millioner/index.html",
-    "static/css/main.047d6842.chunk.css.map": "/genesis-millioner/static/css/main.047d6842.chunk.css.map",
+    "static/css/main.fc1ea7bf.chunk.css.map": "/genesis-millioner/static/css/main.fc1ea7bf.chunk.css.map",
     "static/js/2.5535f666.chunk.js.LICENSE.txt": "/genesis-millioner/static/js/2.5535f666.chunk.js.LICENSE.txt",
     "static/media/amount-border-current.476dc36c.svg": "/genesis-millioner/static/media/amount-border-current.476dc36c.svg",
     "static/media/amount-border.8ea2173e.svg": "/genesis-millioner/static/media/amount-border.8ea2173e.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.d286ff75.js",
     "static/js/2.5535f666.chunk.js",
-    "static/css/main.047d6842.chunk.css",
-    "static/js/main.b6ac1ea5.chunk.js"
+    "static/css/main.fc1ea7bf.chunk.css",
+    "static/js/main.887633a7.chunk.js"
   ]
 }
