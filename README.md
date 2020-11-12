@@ -43,7 +43,7 @@ for deploy just run the following command :
 npm run deploy
 ```
 ## Demo
-[demo](http://VCHMichael.github.io/genesis-millioner) <br/>
+[demo](https://VCHMichael.github.io/genesis-millioner) <br/>
 
 
 > React.js, SCSS, eslint
