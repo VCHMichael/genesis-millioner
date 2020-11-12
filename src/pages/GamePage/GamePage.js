@@ -8,7 +8,7 @@ import Amount from '../../components/Amount/Amount';
 const GamePage = () => {
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('/data.json');
+      const response = await fetch(`${process.env.PUBLIC_URL}/data.json`);
       const data = await response.json();
       // eslint-disable-next-line no-use-before-define
       setData(data);
@@ -66,7 +66,7 @@ const GamePage = () => {
                 </div>
             </div>
             {isEnd ? <Redirect to={{
-              pathname: '/finish',
+              pathname: `${process.env.PUBLIC_URL}/finish`,
               state: {
                 // eslint-disable-next-line no-nested-ternary
                 result: currentQuestion > 0 && currentQuestion < 11

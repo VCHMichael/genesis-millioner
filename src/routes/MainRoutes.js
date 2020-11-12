@@ -7,9 +7,9 @@ import NotFound from '../pages/NotFound/NotFound';
 
 const MainRoutes = () => (
         <Switch>
-            <Route exact path='/' render={() => <GameStart/>}/>
-            <Route exact path='/game' render={() => <GamePage/>}/>
-            <Route exact path='/finish' render={() => <GameEnd/>}/>
+            <Route exact path={`${process.env.PUBLIC_URL}/`} render={() => <GameStart/>}/>
+            <Route exact path={`${process.env.PUBLIC_URL}/game`} render={() => <GamePage/>}/>
+            <Route exact path={`${process.env.PUBLIC_URL}/finish`} render={() => <GameEnd/>}/>
             <Route exact path='*' render={() => <NotFound/>}/>
         </Switch>
 );

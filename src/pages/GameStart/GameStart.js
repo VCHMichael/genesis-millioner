@@ -12,7 +12,7 @@ const GameStart = () => (
                     </div>
                     <div className="container__startGame">
                         <h1 className='title'>Who wants to be a millionaire?</h1>
-                        <Button link='/game' text='Start'/>
+                        <Button link={`${process.env.PUBLIC_URL}/game`} text='Start'/>
                     </div>
                 </div>
             </div>

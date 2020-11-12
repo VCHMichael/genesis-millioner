@@ -15,7 +15,7 @@ const GameEnd = ({ location: { state } }) => (
                     <div className="container__startGame">
                         <h4 className='container__startGame__score'>Total score:</h4>
                         <h1 className='title'>{ state.result } earned</h1>
-                        <Button link='/' text='Try again'/>
+                        <Button link={`${process.env.PUBLIC_URL}/`} text='Try again'/>
                     </div>
                 </div>
             </div>

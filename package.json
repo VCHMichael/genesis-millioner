@@ -1,5 +1,5 @@
 {
-  "homepage": "https://VCHMichael.github.io/genesis-millioner",
+  "homepage": "https://VCHMichael.github.io/genesis-millioner/",
   "name": "genesis-millioner",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +25,7 @@
     "lint": "eslint \"**/*.js\"",
     "lint:fix": "eslint \"**/*.js\" --fix",
     "predeploy": "npm run build",
-    "deploy": "npm run cleanup && gh-pages -d build -b deploy -e build",
+    "deploy": "npm run cleanup && gh-pages -d build -b deploy",
     "cleanup": "rm -rf node_modules/gh-pages/.cache"
   },
   "eslintConfig": {
